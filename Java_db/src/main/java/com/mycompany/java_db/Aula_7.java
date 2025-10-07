@@ -1,6 +1,8 @@
 package com.mycompany.java_db;
 
 import java.sql.*;
+import javax.swing.JFrame;
+        
 public class Aula_7 {
 
     private static final String URL = "jdbc:mysql//localhost:3306/java_db";
@@ -15,4 +17,15 @@ public class Aula_7 {
             return null;
         }
     }
+    
+    public static void main(String[] args) {
+        JFrame TelaPrincipal = new JFrame("TelaPrincipal");
+        TelaPrincipal.setSize(800, 200); 
+        TelaPrincipal.setLayout(null);
+        TelaPrincipal.setVisible(true);
+        
+    }
+        
+
+            
 }
